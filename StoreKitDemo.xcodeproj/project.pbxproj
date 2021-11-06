@@ -11,6 +11,13 @@
 		C02E93FD272745CE0014334F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E93FC272745CE0014334F /* ContentView.swift */; };
 		C02E93FF272745D00014334F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02E93FE272745D00014334F /* Assets.xcassets */; };
 		C02E9402272745D00014334F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02E9401272745D00014334F /* Preview Assets.xcassets */; };
+		C0340000272C6BA700A667AA /* UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034FFFF272C6BA700A667AA /* UnlockView.swift */; };
+		C034FFF4272C605900A667AA /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = C034FFF3272C605900A667AA /* Configuration.storekit */; };
+		C034FFF6272C61E900A667AA /* UnlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034FFF5272C61E900A667AA /* UnlockManager.swift */; };
+		C034FFF8272C699A00A667AA /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034FFF7272C699A00A667AA /* DataController.swift */; };
+		C034FFFA272C6AF400A667AA /* SKProduct-LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034FFF9272C6AF400A667AA /* SKProduct-LocalizedPrice.swift */; };
+		C034FFFC272C6B3C00A667AA /* PurchaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034FFFB272C6B3C00A667AA /* PurchaseButton.swift */; };
+		C034FFFE272C6B7500A667AA /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034FFFD272C6B7500A667AA /* ProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		C02E93FE272745D00014334F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C02E9401272745D00014334F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C02E9403272745D00014334F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C034FFF3272C605900A667AA /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		C034FFF5272C61E900A667AA /* UnlockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockManager.swift; sourceTree = "<group>"; };
+		C034FFF7272C699A00A667AA /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C034FFF9272C6AF400A667AA /* SKProduct-LocalizedPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct-LocalizedPrice.swift"; sourceTree = "<group>"; };
+		C034FFFB272C6B3C00A667AA /* PurchaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseButton.swift; sourceTree = "<group>"; };
+		C034FFFD272C6B7500A667AA /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		C034FFFF272C6BA700A667AA /* UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				C02E93FE272745D00014334F /* Assets.xcassets */,
 				C02E9403272745D00014334F /* Info.plist */,
 				C02E9400272745D00014334F /* Preview Content */,
+				C034FFF3272C605900A667AA /* Configuration.storekit */,
+				C034FFF5272C61E900A667AA /* UnlockManager.swift */,
+				C034FFF7272C699A00A667AA /* DataController.swift */,
+				C034FFF9272C6AF400A667AA /* SKProduct-LocalizedPrice.swift */,
+				C034FFFB272C6B3C00A667AA /* PurchaseButton.swift */,
+				C034FFFD272C6B7500A667AA /* ProductView.swift */,
+				C034FFFF272C6BA700A667AA /* UnlockView.swift */,
 			);
 			path = StoreKitDemo;
 			sourceTree = "<group>";
@@ -127,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02E9402272745D00014334F /* Preview Assets.xcassets in Resources */,
+				C034FFF4272C605900A667AA /* Configuration.storekit in Resources */,
 				C02E93FF272745D00014334F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C034FFF6272C61E900A667AA /* UnlockManager.swift in Sources */,
+				C034FFF8272C699A00A667AA /* DataController.swift in Sources */,
+				C0340000272C6BA700A667AA /* UnlockView.swift in Sources */,
+				C034FFFC272C6B3C00A667AA /* PurchaseButton.swift in Sources */,
 				C02E93FD272745CE0014334F /* ContentView.swift in Sources */,
+				C034FFFE272C6B7500A667AA /* ProductView.swift in Sources */,
 				C02E93FB272745CE0014334F /* StoreKitDemoApp.swift in Sources */,
+				C034FFFA272C6AF400A667AA /* SKProduct-LocalizedPrice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,48 @@
+{
+  "identifier" : "76FF55A5",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "3",
+      "familyShareable" : false,
+      "internalID" : "E359EAB3",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "org.suenot.StoreKitDemo.Pro",
+      "referenceName" : "Pro",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "15",
+      "familyShareable" : false,
+      "internalID" : "97D29337",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "org.suenot.StoreKitDemo.Extra",
+      "referenceName" : "Extra",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}
